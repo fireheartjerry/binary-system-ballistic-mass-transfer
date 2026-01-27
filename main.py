@@ -939,7 +939,7 @@ def run_validation_tests() -> None:
 
 def main() -> None:
     """Run validation tests, the simulation suite, and all figures."""
-    #run_validation_tests()
+    run_validation_tests()
 
     results, cases = run_simulation_suite()
 
@@ -956,3 +956,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
